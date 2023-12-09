@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jquery code1</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<h1 id="apple"> Apple is a good fruit </h1>
+<h1 id="fries"> Fries are fast food </h1>
+<iframe id="scream" width="560" height="315" src="https://www.youtube.com/embed/5p5d1vflc_g?si=4OUTAvRpEmUlZHe1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+<iframe id="scream2" width="560" height="315" src="https://www.youtube.com/embed/zH9OBtpmnE4?si=q_iV3qPaq6F3jWGB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br>
+<iframe id="scream3" width="560" height="315" src="https://www.youtube.com/embed/DgFvF_My-TM?si=1dMPaOJzXmntVKeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+
+<button onclick="fn1()"> Show apple</button>
+<button onclick="fn2()"> Show fries</button>
+<button onclick="fn3()"> Show video</button>
+
+<script type="text/javascript">
+	$("#scream").hide();
+	$("#scream2").hide();
+	$("#scream3").hide();
+	function fn3 (){
+          $("#scream").show();
+
+	}
+
+	function fn1(){
+		$("#apple").show();
+		$("#scream2").show();
+	}
+
+	function fn2(){
+		$("#fries").show();
+		$("#scream3").show();
+	}
+
+</script>
+</body>
+</html>
