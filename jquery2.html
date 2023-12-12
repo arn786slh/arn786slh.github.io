@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reunion island</title>
+</head>
+<body bgcolor="black">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<button onclick="fn1()"> Fade in </button>
+<button onclick="fn2()"> Fade out </button>
+<button onclick="fn3()"> Show/Hide </button>
+<br>
+ <img src="reunion.jpg" alt="image of reunion island" id="Reunion" width="400px">
+<script type="text/javascript">
+	
+function fn1() {
+	$("#Reunion").fadeIn(2000);
+}
+function fn2() {
+	$("#Reunion").fadeOut(2000);
+}
+function fn3(){
+	$("#Reunion").toggle(2000);
+}
+
+</script>
+
+
+</body>
+</html>

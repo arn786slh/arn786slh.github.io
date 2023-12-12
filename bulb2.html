@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bulb2</title>
+</head>
+<body>
+<img src="bulb_on.png"id="on" alt="bulb off" width="300px">
+<img src="bulb_off.png"id="off" alt="bulb off" width="300px">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<button onclick="fn1()">
+	switch on
+
+</button>
+<button onclick="fn2()">
+	switch off
+</button>
+<script type="text/javascript">
+	$("#off").hide()
+
+function fn1() {
+		$("#off").hide();
+		$("#on").show();
+	}	
+	function fn2(){
+		$("#off").show();
+		$("#on").hide();
+	}
+
+</script>
+
+</body>
+</html>

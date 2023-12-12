@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reunion toggle loops</title>
+</head>
+<body bgcolor="black">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<br>
+ <img src="reunion2.jpg" alt="image of reunion island" id="Reunion" width="400px">
+<script type="text/javascript">
+
+	function fn1(){
+		$("#Reunion").fadeIn(2000);
+		$("#Reunion").fadeOut(2000);
+	}
+	setInterval(fn1,1000);
+</script>
+
+
+</body>
+</html>
